@@ -16,7 +16,22 @@ main {
   /*#a8d0e6*/
 }
 
-nav {
+/* ++++ NAV FOR INDEX.HTML ++++*/
+.navIndexPage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+  padding: 0rem 5rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* background-color: rgb(#f8e9a1);*/
+  /* border: 1px solid white;*/
+}
+
+/* ++++ NAV FOR pages other than index.html ++++*/
+.navClass {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -83,7 +98,29 @@ nav {
   text-align: center;
 }
 
+.bigText1 {
+  display: flexbox;
+  flex-wrap: wrap;
+  /* transform: translate(-50%, -30%);*/
+  font-size: 5rem;
+  font-family: "Allura", Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+  color: rgb(249, 250, 250);
+  text-align: center;
+}
+
 .smallText p {
+  display: flexbox;
+  flex-wrap: wrap;
+  /* transform: translate(-50%, -30%);*/
+  font-size: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  line-height: 4vh;
+  color: rgb(226, 226, 231);
+  text-align: center;
+}
+
+.smallText1 p {
   display: flexbox;
   flex-wrap: wrap;
   /* transform: translate(-50%, -30%);*/
@@ -153,6 +190,19 @@ nav {
 }
 
 .footer {
+  display: flexbox;
+  flex-wrap: wrap;
+  /* transform: translate(-50%, -30%);*/
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  color: rgb(226, 226, 231);
+  text-align: center;
+  align-content: flex-end;
+  margin-top: 60px;
+}
+
+/*++++ FOOTER FOR ALL PAGES OTHER THAN INDEX.HTML ++++ */
+.footer1 {
   display: flexbox;
   flex-wrap: wrap;
   /* transform: translate(-50%, -30%);*/
