@@ -86,6 +86,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  /*  border: solid black 1px;*/
 }
 
 .bigText {
@@ -114,7 +115,7 @@ main {
   display: flexbox;
   flex-wrap: wrap;
   /* transform: translate(-50%, -30%);*/
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
   line-height: 4vh;
   color: rgb(37, 37, 37);
@@ -175,7 +176,7 @@ main {
   flex-wrap: wrap;
   /* background-color: rgb(#f8e9a1);*/
   justify-content: space-evenly;
-  /* border: 1px solid greenyellow;*/
+  /* border: 1px solid rgb(82, 134, 4);*/
 }
 
 .subBox {
@@ -188,6 +189,15 @@ main {
 .divWrapper {
   width: 100%;
   margin: auto;
+}
+
+.about {
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  line-height: 3vh;
+  color: rgb(37, 37, 37);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .footer {
