@@ -225,6 +225,10 @@ main {
   margin-top: 60px;
 }
 
+.largeScreenHide {
+  display: none;
+}
+
 /*================================================================================================*/
 
 @media screen and (max-width: 1300px) {
@@ -303,6 +307,12 @@ main {
     font-size: 20px;
     color: rgb(37, 37, 37);
     padding: right 25px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .largeScreenHide {
+    display: flex;
   }
 }
 /* ==================================================================================================================== */
