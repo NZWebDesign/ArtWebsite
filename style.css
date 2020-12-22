@@ -445,12 +445,13 @@ main {
 .mainBoxGallery {
   display: flex;
   flex-wrap: wrap;
-  background-color: gray;
+  /* background-color: #f0ddc0;*/
   justify-content: space-evenly;
+  background: linear-gradient(to bottom, #f1e0c5 0%, #f3f3f1 100%);
 }
 
 .imageBox {
   padding: 10px;
   margin: 30px;
-  background-color: rgb(196, 199, 161);
+  background-color: #d8d5d0;
 }

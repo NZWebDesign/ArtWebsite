@@ -19,3 +19,4 @@ timeLine.fromTo(".bigText1", {opacity:0}, {opacity: 1, duration:1}, '1');
 timeLine.fromTo(".smallText1", {opacity:0}, {opacity: 1, duration:1}, '1');
 timeLine.fromTo(".hiddenPictures1", {opacity:0}, {opacity: 1, duration:1}, '1');
 timeLine.fromTo(".footer1", {opacity:0}, {opacity: 1, duration:1}, '1');
+timeLine.fromTo(".mainBoxGallery", {opacity:0}, {opacity: 1, duration:1}, '1');
