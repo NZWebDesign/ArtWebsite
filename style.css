@@ -428,3 +428,29 @@ main {
     display: flex;
   }
 }
+
+.imageDivWrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.imageDivWrapper img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: auto;
+}
+
+.mainBoxGallery {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+  justify-content: space-evenly;
+}
+
+.imageBox {
+  padding: 10px;
+  margin: 30px;
+  background-color: rgb(196, 199, 161);
+}
